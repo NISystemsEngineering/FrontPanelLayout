@@ -1,0 +1,12 @@
+Steps to create a new Object Layout class.  Read these instructions carefully before proceeding:
+
+1. Create a new class that inherits from one of the built-in classes in the "<LabVIEW>\vi.lib\Front Panel Layout\Object Layout Classes\".
+	*If the new class supports an existing LabVIEW object type, then the class hierarchy MUST mirror the VI Server class hierarchy of the object type.  For example, if you are creating a class to support the "ComboBox" object type, then it must inherit from the built-in "String Control Layout" class.
+	*If the new class supports a specific XControl, then the class MUST inherit from the "XControl Layout" class.
+
+2.  Implement the three override VIs for the new class:
+	*ApplyLayoutToObject.vi - Reads data frome the config object, and applies it to the VI Server refnum.
+	*CheckIfGObjectMatches.vi - Checks if the VI Server refnum is compatible with the class.
+	*ReadObjectLayout.vi - Reads data from the VI Server refnum, and applies it to the config object.
+
+3. Make sure that an instance of the new class is statically loaded into memory whenever a front panel layout is either saved or loaded.  This can be done by placing a class constant on the top level diagram of the VI being configured.  If this is not done, the class will be ignored by the API.  The class can be saved anywhere on disk, but it must be statically loaded.

@@ -1,0 +1,447 @@
+<Object>
+<Name>VI Panel Layout out</Name>
+<NumLevels>1</NumLevels>
+<Class>NI_SE_Front Panel Layout.lvlib:VI Panel Layout.lvclass</Class>
+<Version>1.0.0.5</Version>
+<Cluster>
+<Name>VI Panel Layout.lvclass</Name>
+<NumElts>8</NumElts>
+<String>
+<Name>VI name</Name>
+<Val>Bottom Subpanel_C.vi</Val>
+</String>
+<Path>
+<Name>VI path</Name>
+<Val>..\Bottom Subpanel_C.vi</Val>
+</Path>
+<String>
+<Name>keyword</Name>
+<Val>small1</Val>
+</String>
+<Cluster>
+<Name>FP panel bounds</Name>
+<NumElts>4</NumElts>
+<I16>
+<Name>Left</Name>
+<Val>211</Val>
+</I16>
+<I16>
+<Name>Top</Name>
+<Val>319</Val>
+</I16>
+<I16>
+<Name>Right</Name>
+<Val>913</Val>
+</I16>
+<I16>
+<Name>Bottom</Name>
+<Val>493</Val>
+</I16>
+</Cluster>
+<Cluster>
+<Name>FP window bounds</Name>
+<NumElts>4</NumElts>
+<I16>
+<Name>Left</Name>
+<Val>205</Val>
+</I16>
+<I16>
+<Name>Top</Name>
+<Val>239</Val>
+</I16>
+<I16>
+<Name>Right</Name>
+<Val>935</Val>
+</I16>
+<I16>
+<Name>Bottom</Name>
+<Val>515</Val>
+</I16>
+</Cluster>
+<LvVariant>
+<Name>object list</Name>
+</LvVariant>
+<Array>
+<Name>object layouts</Name>
+<Dimsize>5</Dimsize>
+<Object>
+<Name>Object Layout.lvclass</Name>
+<NumLevels>2</NumLevels>
+<Class>NI_SE_Front Panel Layout.lvlib:Decoration Layout.lvclass</Class>
+<Version>1.0.0.2</Version>
+<Version>1.0.0.1</Version>
+<Cluster>
+<Name>Object Layout.lvclass</Name>
+<NumElts>4</NumElts>
+<I32>
+<Name>UID</Name>
+<Val>168</Val>
+</I32>
+<String>
+<Name>unique name</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Master Bounds Rect</Name>
+<NumElts>4</NumElts>
+<I16>
+<Name>Left</Name>
+<Val>336</Val>
+</I16>
+<I16>
+<Name>Top</Name>
+<Val>36</Val>
+</I16>
+<I16>
+<Name>Right</Name>
+<Val>516</Val>
+</I16>
+<I16>
+<Name>Bottom</Name>
+<Val>72</Val>
+</I16>
+</Cluster>
+<Cluster>
+<Name>size</Name>
+<NumElts>2</NumElts>
+<U32>
+<Name>Width</Name>
+<Val>180</Val>
+</U32>
+<U32>
+<Name>Height</Name>
+<Val>36</Val>
+</U32>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Decoration Layout.lvclass</Name>
+<NumElts>1</NumElts>
+<Cluster>
+<Name>Size</Name>
+<NumElts>2</NumElts>
+<U32>
+<Name>Width</Name>
+<Val>180</Val>
+</U32>
+<U32>
+<Name>Height</Name>
+<Val>36</Val>
+</U32>
+</Cluster>
+</Cluster>
+</Object>
+<Object>
+<Name>Object Layout.lvclass</Name>
+<NumLevels>2</NumLevels>
+<Class>NI_SE_Front Panel Layout.lvlib:Decoration Layout.lvclass</Class>
+<Version>1.0.0.2</Version>
+<Version>1.0.0.1</Version>
+<Cluster>
+<Name>Object Layout.lvclass</Name>
+<NumElts>4</NumElts>
+<I32>
+<Name>UID</Name>
+<Val>148</Val>
+</I32>
+<String>
+<Name>unique name</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Master Bounds Rect</Name>
+<NumElts>4</NumElts>
+<I16>
+<Name>Left</Name>
+<Val>252</Val>
+</I16>
+<I16>
+<Name>Top</Name>
+<Val>24</Val>
+</I16>
+<I16>
+<Name>Right</Name>
+<Val>312</Val>
+</I16>
+<I16>
+<Name>Bottom</Name>
+<Val>144</Val>
+</I16>
+</Cluster>
+<Cluster>
+<Name>size</Name>
+<NumElts>2</NumElts>
+<U32>
+<Name>Width</Name>
+<Val>60</Val>
+</U32>
+<U32>
+<Name>Height</Name>
+<Val>120</Val>
+</U32>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Decoration Layout.lvclass</Name>
+<NumElts>1</NumElts>
+<Cluster>
+<Name>Size</Name>
+<NumElts>2</NumElts>
+<U32>
+<Name>Width</Name>
+<Val>60</Val>
+</U32>
+<U32>
+<Name>Height</Name>
+<Val>120</Val>
+</U32>
+</Cluster>
+</Cluster>
+</Object>
+<Object>
+<Name>Object Layout.lvclass</Name>
+<NumLevels>2</NumLevels>
+<Class>NI_SE_Front Panel Layout.lvlib:Decoration Layout.lvclass</Class>
+<Version>1.0.0.2</Version>
+<Version>1.0.0.1</Version>
+<Cluster>
+<Name>Object Layout.lvclass</Name>
+<NumElts>4</NumElts>
+<I32>
+<Name>UID</Name>
+<Val>1364</Val>
+</I32>
+<String>
+<Name>unique name</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Master Bounds Rect</Name>
+<NumElts>4</NumElts>
+<I16>
+<Name>Left</Name>
+<Val>5</Val>
+</I16>
+<I16>
+<Name>Top</Name>
+<Val>4</Val>
+</I16>
+<I16>
+<Name>Right</Name>
+<Val>696</Val>
+</I16>
+<I16>
+<Name>Bottom</Name>
+<Val>170</Val>
+</I16>
+</Cluster>
+<Cluster>
+<Name>size</Name>
+<NumElts>2</NumElts>
+<U32>
+<Name>Width</Name>
+<Val>691</Val>
+</U32>
+<U32>
+<Name>Height</Name>
+<Val>166</Val>
+</U32>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Decoration Layout.lvclass</Name>
+<NumElts>1</NumElts>
+<Cluster>
+<Name>Size</Name>
+<NumElts>2</NumElts>
+<U32>
+<Name>Width</Name>
+<Val>691</Val>
+</U32>
+<U32>
+<Name>Height</Name>
+<Val>166</Val>
+</U32>
+</Cluster>
+</Cluster>
+</Object>
+<Object>
+<Name>Object Layout.lvclass</Name>
+<NumLevels>3</NumLevels>
+<Class>NI_SE_Front Panel Layout.lvlib:Text Decoration Layout.lvclass</Class>
+<Version>1.0.0.3</Version>
+<Version>1.0.0.2</Version>
+<Version>1.0.0.1</Version>
+<Cluster>
+<Name>Object Layout.lvclass</Name>
+<NumElts>4</NumElts>
+<I32>
+<Name>UID</Name>
+<Val>1252</Val>
+</I32>
+<String>
+<Name>unique name</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Master Bounds Rect</Name>
+<NumElts>4</NumElts>
+<I16>
+<Name>Left</Name>
+<Val>21</Val>
+</I16>
+<I16>
+<Name>Top</Name>
+<Val>16</Val>
+</I16>
+<I16>
+<Name>Right</Name>
+<Val>255</Val>
+</I16>
+<I16>
+<Name>Bottom</Name>
+<Val>47</Val>
+</I16>
+</Cluster>
+<Cluster>
+<Name>size</Name>
+<NumElts>2</NumElts>
+<U32>
+<Name>Width</Name>
+<Val>234</Val>
+</U32>
+<U32>
+<Name>Height</Name>
+<Val>31</Val>
+</U32>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Decoration Layout.lvclass</Name>
+<NumElts>1</NumElts>
+<Cluster>
+<Name>Size</Name>
+<NumElts>2</NumElts>
+<U32>
+<Name>Width</Name>
+<Val>234</Val>
+</U32>
+<U32>
+<Name>Height</Name>
+<Val>31</Val>
+</U32>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Text Decoration Layout.lvclass</Name>
+<NumElts>1</NumElts>
+<Cluster>
+<Name>Font</Name>
+<NumElts>7</NumElts>
+<String>
+<Name>Font Name</Name>
+<Val>App Font</Val>
+</String>
+<U16>
+<Name>Size</Name>
+<Val>29</Val>
+</U16>
+<Boolean>
+<Name>Bold</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Italic</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Underline</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Strikeout</Name>
+<Val>0</Val>
+</Boolean>
+<U32>
+<Name>Color</Name>
+<Val>0</Val>
+</U32>
+</Cluster>
+</Cluster>
+</Object>
+<Object>
+<Name>Object Layout.lvclass</Name>
+<NumLevels>2</NumLevels>
+<Class>NI_SE_Front Panel Layout.lvlib:Pane Layout.lvclass</Class>
+<Version>1.0.0.0</Version>
+<Version>1.0.0.1</Version>
+<Cluster>
+<Name>Object Layout.lvclass</Name>
+<NumElts>4</NumElts>
+<I32>
+<Name>UID</Name>
+<Val>12</Val>
+</I32>
+<String>
+<Name>unique name</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Master Bounds Rect</Name>
+<NumElts>4</NumElts>
+<I16>
+<Name>Left</Name>
+<Val>0</Val>
+</I16>
+<I16>
+<Name>Top</Name>
+<Val>50</Val>
+</I16>
+<I16>
+<Name>Right</Name>
+<Val>702</Val>
+</I16>
+<I16>
+<Name>Bottom</Name>
+<Val>224</Val>
+</I16>
+</Cluster>
+<Cluster>
+<Name>size</Name>
+<NumElts>2</NumElts>
+<U32>
+<Name>Width</Name>
+<Val>702</Val>
+</U32>
+<U32>
+<Name>Height</Name>
+<Val>174</Val>
+</U32>
+</Cluster>
+</Cluster>
+<Cluster>
+</Cluster>
+</Object>
+</Array>
+<Array>
+<Name>subpanel VIs</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>subpanel VI pair</Name>
+<NumElts>3</NumElts>
+<I32>
+<Name>subpanel UID</Name>
+<Val></Val>
+</I32>
+<String>
+<Name>VI name</Name>
+<Val></Val>
+</String>
+<Path>
+<Name>VI path (rel)</Name>
+<Val></Val>
+</Path>
+</Cluster>
+</Array>
+</Cluster>
+</Object>

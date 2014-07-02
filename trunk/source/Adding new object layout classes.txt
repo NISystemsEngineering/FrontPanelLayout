@@ -1,0 +1,6 @@
+To add a new Object Layout class:
+
+1. Create a new class inside "NI_SE_Front Panel Layout.lvlib".
+2. Make the class inherit from Object Layout.lvclass, or one of its descendant classes.
+3. Save the class in a new folder under "\Front Panel Layout\Object Layout Classes\".
+4. Add an instance of the new class to the diagram of "Object Layout Classes.vi", and make sure it is wired to the build array function.
