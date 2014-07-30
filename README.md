@@ -1,27 +1,20 @@
-#NISETemplateRepo
+#Front Panel Layout Tool
 ================
-###This repository serves as a template for future repositories. It includes a sample readme, style guidelines, gitignore, vipb, and directory structure.
+###The Front Panel Layout Tool provides the ability to use a single VI’s front panel with various different window sizes and layout configurations.
 ================
 ####*This repository and any materials provided by NI therein are provided AS IS. NI DISCLAIMS ANY AND ALL LIABILITIES FOR AND MAKES NO WARRANTIES, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR  PARTICULAR PURPOSE, OR NON-INFRINGEMENT OF INTELLECTUAL PROPERTY. NI shall have no liability for any direct, indirect, incidental, punitive, special, or consequential damages for your use of the repository or any materials contained therein.*
 ================
 
-###Goals:
-**What** should be accomplished by the project.
- 
-###Background:
-**Why** does this project exist? What need or needs does this fill? What experience justifies the need for this project?
- 
+
 ###Overview:
-High level description of **how** it should be accomplished. How does this match the goals of the project, and how does it fulfil the needs outlined. Provide a high level set of specific requirements.
+The Front Panel Layout Tool provides the ability to use a single VI’s front panel with various different window sizes and layout configurations.  This is useful when you want to use one VI as a user interface, which can be used on multiple monitors of different screen resolutions.  The tool stores the position and size information of every front panel object in a configuration file next to the VI.  When the VI is loaded, it can size itself and all its front panel objects based on whichever configuration file is present.
  
 ###Repository Overview:
-Identify the organization of any branches. In general, branches should follow the pattern outlined in the next section. This should include indications of which version each branch is currently on.
+The master branch contains the current release of the code. The "trunk" folder contains the development source.
  
-###Test Process:
-Describe what tests exist, and which must pass. In general, all tests must pass. If needed, define what passing means for the tests (if the code does not run in a test framework, for example). All submissions should result in code that passes the expected tests.
- 
+
 ###Build Process:
-Describe how to build the code, and what the expected build artifacts are. This is critical, as all submissions should result in code that builds. If applicable, describe a test plan for the generated build artifact (required if the result is an executable, not required if the result is a source API).
+The code may be built using the VI Package Build Specification located at ../trunk/source/LabVIEW/
  
 ###Contribution Workflow:
 *For a more complete workflow, view [this set-up guide](https://decibel.ni.com/content/docs/DOC-37416) and [this workflow guide](https://decibel.ni.com/content/docs/DOC-37417).*
