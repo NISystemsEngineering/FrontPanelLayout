@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-02-04 13:01:40" Modified_Date="2016-09-06 17:00:08" Creator="Christopher Malato" Comments="" ID="544c798b821775b3cfc7100e2ff0297b">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-02-04 13:01:40" Modified_Date="2016-09-22 11:34:17" Creator="Christopher Malato" Comments="" ID="a2fdb1bccb1cf5e7a33eb2b16c52a5c0">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_fp_layout</Package_File_Name>
-    <Library_Version>1.2.1.42</Library_Version>
+    <Library_Version>1.2.2.44</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\export</Library_Output_Folder>
@@ -32,7 +32,9 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL/>
-      <Release_Notes>Version 1.2.1.x: Fixed issue of Danielle Jobe ( https://github.com/NISystemsEngineering/FrontPanelLayout/issues/3 )
+      <Release_Notes>Version 1.2.2.x: Fixed resizing array elements issue (isse #6 on github)
+
+Version 1.2.1.x: Fixed issue of Danielle Jobe ( https://github.com/NISystemsEngineering/FrontPanelLayout/issues/3 )
 
 Version 1.2.0.x: Added path controls; Clear error before resetting "Defer Panel Updates"
 
